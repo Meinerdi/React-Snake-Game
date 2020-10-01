@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  outline: none;
+  background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+}
+
+canvas {
+  background: #fff;
+}
+
+.game-over-popup {
+  position: absolute;
+  color: crimson;
+  font-size: 40px;
+}
+
+.info-row {
+  margin-top: 3px;
+  display: flex;
+  justify-content: space-between;
+  width: 560px;
+}
+
+.start-game-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.start-game-button:hover {
+  transition: all 0.3s ease;
+  background: rgb(6, 121, 53);
+}
